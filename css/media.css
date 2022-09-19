@@ -1,0 +1,33 @@
+@media (max-width: 1024px){}
+
+@media (max-width: 991.98px){
+    #topbar {
+        background: rgba(255, 255, 255, 0.9);
+    }
+    #topbar .navbar-nav .nav-item .nav-link {
+        color: #222222;
+    }
+    #banner {
+        height: 80vh;
+    }
+    #banner .wrapper .banCont .banItem h1 {
+        font-size: 36px;
+    }
+    #demo .demoCont{
+        margin-top: 15px;
+    }
+    #demo .demoCont .demoItem .img img {
+        object-fit: contain;
+    }
+    #footer .footerCont h5 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767.98px){}
+
+@media (max-width: 575.98px){
+
+    
+}
+

@@ -1,0 +1,177 @@
+// topbar
+#topbar {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    z-index: 99999;
+    background-color: rgba(255, 255, 255, 0.9);
+    .logo {
+        img {
+            height: auto;
+            width: 70px;
+        }
+    }
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: #222222;
+
+                &:hover {
+                    color: #ff4522;
+                }
+            }
+        }
+    }
+}
+
+// topbar end
+
+// banner start
+#banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/hero-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .wrapper {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        width: 100%;
+        display: grid;
+        align-items: center;
+
+        .banCont {
+            .banItem {
+                h1 {
+                    font-size: 70px;
+                    color: #ffffff;
+                    font-weight: 700;
+
+                    .typed {
+                        color: #ff4522;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// banner end
+
+// feature start
+#features {
+    padding: 140px 0;
+
+    .featureCont {
+        padding: 35px 20px;
+        border-radius: 3px;
+        box-shadow: 0 0 3px #222222;
+        background-color: #222222;
+
+        .featureItem {
+            .icon {
+                i.fa {
+                    font-size: 24px;
+                    color: #ff4522;
+                }
+            }
+
+            .title {
+                h3 {
+                    color: #ffffff;
+                    margin-top: 10px;
+                    font-size: 24px;
+                }
+            }
+
+            .text {
+                p {
+                    color: #ffffff;
+                    font-size: 16px;
+                    margin-top: 35px;
+                }
+            }
+        }
+    }
+}
+
+// feaure end
+
+// demo start
+#demo {
+    padding-bottom: 140px;
+
+    .demoCont {
+        
+
+        .demoItem {
+            position: relative;
+            &:hover .demoLink{
+                opacity: 1;
+            }
+            .img {
+                height: 500px;
+                width: 100%;
+                border-radius: 3px;
+                box-shadow: 0 0 3px #222222;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+            .demoLink{
+                position: absolute;
+                inset: 0px;
+                display: grid;
+                place-items: center;
+                background-color: rgba(34, 34, 34, 0.7);
+                opacity: 0;
+                transition: all linear .3s;
+                a{
+                    color: #ffffff;
+                    padding: 10px 20px;
+                    border-radius: 3px;
+                    background-color: #ff4522;
+                    text-decoration: none;  
+                }   
+            }
+        }
+        
+       
+    }
+    .title {
+        margin-top: 15px;
+        text-align: center;
+        position: inherit;
+        z-index: 9999;
+    }
+}
+
+// faq
+#faq{
+    padding: 140px 0;
+    background-color: #dbdbdb;
+    .accordion-flush .accordion-item {
+        margin-top: 15px;
+    }
+}
+
+// footer
+#footer{
+    padding: 100px 0;
+    background-color: #222222;
+    .footerCont{
+        h5{
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 18px;
+        }
+    }
+}
